@@ -5,7 +5,10 @@
 
 
 body {
-   background-image: url('../img/coffee19202.jpg') center (center / cover) no-repeat;
+background-image: url('../img/coffee19202.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
    font-family: soul, sans-serif;
    height: 100%;
    width: 100%;
@@ -87,7 +90,7 @@ body {
 .logo-text::after{
    content: '';
    display: inline-block;
-   background-image: url(img/icons/Petal.svg);
+   background-image: url('../img/icons/petal.svg');
    height: 26.2px;
    width: 24.3px;
    margin-left: -8px;
